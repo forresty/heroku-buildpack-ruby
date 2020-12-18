@@ -42,7 +42,7 @@ GEM
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     i18n (0.8.4)
-    json (2.0.4)
+    json (2.4.1)
     mime-types (2.99.3)
     minitest (5.10.2)
     moneta (0.8.1)
@@ -87,7 +87,7 @@ DEPENDENCIES
   excon
   git!
   heroku_hatchet (~> 3.0.1)
-  json (~> 2.0.2)
+  json (~> 2.4.1)
   netrc
   parallel_tests
   rake
