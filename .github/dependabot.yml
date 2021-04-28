@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "21:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: excon
+    versions:
+    - 0.78.1
+    - 0.79.0
+    - 0.80.1
+  - dependency-name: parallel_tests
+    versions:
+    - 3.4.0
+    - 3.5.0
+    - 3.5.2
+    - 3.6.0
+  - dependency-name: heroku_hatchet
+    versions:
+    - 7.3.3
